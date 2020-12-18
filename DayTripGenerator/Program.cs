@@ -6,7 +6,10 @@ namespace DayTripGenerator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Entertainment entertainment = new Entertainment();
+            entertainment.OptionEntertainment();
+
         }
     }
 }
+//To Do: make a helper class
