@@ -6,6 +6,7 @@ namespace DayTripGenerator
 {
     class Transportation
     {
+        //change for git test
         //member variables
         public List<string> transportOption;
         public Transportation()
