@@ -16,7 +16,6 @@ namespace DayTripGenerator
         public Itinerary()
         {
             Welcome();
-            BeginDayTrip();
         }
         //member methods
 
