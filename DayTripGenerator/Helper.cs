@@ -10,5 +10,11 @@ namespace DayTripGenerator
         {
             return random.Next(min, max);
         }
+
+        public static string ConfirmChoice(string output)
+        {
+            Console.WriteLine(output);
+            return Console.ReadLine();
+        }
     }
 }
