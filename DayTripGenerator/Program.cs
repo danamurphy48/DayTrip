@@ -8,7 +8,6 @@ namespace DayTripGenerator
         {
             Itinerary itinerary = new Itinerary();
             itinerary.BeginDayTrip();
-
         }
     }
 }

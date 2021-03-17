@@ -70,9 +70,7 @@ namespace DayTripGenerator
                             break;
                     }
                 }
-            }
-
-                    
+            }       
         }
     }
 }

@@ -34,34 +34,7 @@ namespace DayTripGenerator
             entertainment.ConfirmSelection();
             restaurant.ConfirmSelection();
             ReviewFinal();
-
-            //SelectDestination();
-            //SelectTransportation();
-            //SelectEntertainment();
-            //SelectRestaurant();
         }
-        //public void SelectDestination()
-        //{
-        //    //Destination destination = new Destination();
-        //    destination.ConfirmSelection();
-        //}
-        //public void SelectTransportation()
-        //{
-        //    //Transportation transportation = new Transportation();
-        //    transportation.ConfirmSelection();
-        //}
-
-        //public void SelectEntertainment()
-        //{
-        //    //Entertainment entertainment = new Entertainment();
-        //    entertainment.ConfirmSelection();
-        //}
-
-        //public void SelectRestaurant()
-        //{
-        //    //Restaurant restaurant = new Restaurant();
-        //    restaurant.ConfirmSelection();
-        //}
 
         public void ReviewFinal()
         {
