@@ -50,7 +50,7 @@ namespace DayTripGenerator
         public void SelectRestaurant()
         {
             Restaurant restaurant = new Restaurant();
-            restaurant.AddRestaurantOptions();
+            restaurant.ConfirmSelection();
         }
 
 

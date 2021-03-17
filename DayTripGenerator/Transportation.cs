@@ -54,6 +54,7 @@ namespace DayTripGenerator
                             Console.WriteLine($"Running generator again");
                             satisfied = false;
                             PickRandomTransport();
+                            Console.WriteLine($"If you happy with {randomTransport}, type yes. If not, type no.");
                             break;
                         default:
                             Console.WriteLine("Please write 'yes' or 'no'.");
