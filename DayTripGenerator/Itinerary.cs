@@ -8,7 +8,7 @@ namespace DayTripGenerator
     {
         //member variables
         Destination destination;
-        Transportation transport;
+        Transportation transportation;
         Entertainment entertainment;
         Restaurant restaurant;
 
@@ -16,6 +16,10 @@ namespace DayTripGenerator
         public Itinerary()
         {
             Welcome();
+            destination = new Destination();
+            transportation = new Transportation();
+            entertainment = new Entertainment();
+            restaurant = new Restaurant();
         }
         //member methods
 
@@ -32,24 +36,24 @@ namespace DayTripGenerator
         }
         public void SelectDestination()
         {
-            Destination destination = new Destination();
+            //Destination destination = new Destination();
             destination.ConfirmSelection();
         }
         public void SelectTransportation()
         {
-            Transportation transportation = new Transportation();
+            //Transportation transportation = new Transportation();
             transportation.ConfirmSelection();
         }
 
         public void SelectEntertainment()
         {
-            Entertainment entertainment = new Entertainment();
+            //Entertainment entertainment = new Entertainment();
             entertainment.ConfirmSelection();
         }
 
         public void SelectRestaurant()
         {
-            Restaurant restaurant = new Restaurant();
+            //Restaurant restaurant = new Restaurant();
             restaurant.ConfirmSelection();
         }
 
