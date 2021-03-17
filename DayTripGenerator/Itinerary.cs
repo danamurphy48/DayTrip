@@ -29,34 +29,49 @@ namespace DayTripGenerator
         }
         public void BeginDayTrip()
         {
-            SelectDestination();
-            SelectTransportation();
-            SelectEntertainment();
-            SelectRestaurant();
-        }
-        public void SelectDestination()
-        {
-            //Destination destination = new Destination();
             destination.ConfirmSelection();
-        }
-        public void SelectTransportation()
-        {
-            //Transportation transportation = new Transportation();
             transportation.ConfirmSelection();
-        }
-
-        public void SelectEntertainment()
-        {
-            //Entertainment entertainment = new Entertainment();
             entertainment.ConfirmSelection();
-        }
-
-        public void SelectRestaurant()
-        {
-            //Restaurant restaurant = new Restaurant();
             restaurant.ConfirmSelection();
-        }
+            ReviewFinal();
 
+            //SelectDestination();
+            //SelectTransportation();
+            //SelectEntertainment();
+            //SelectRestaurant();
+        }
+        //public void SelectDestination()
+        //{
+        //    //Destination destination = new Destination();
+        //    destination.ConfirmSelection();
+        //}
+        //public void SelectTransportation()
+        //{
+        //    //Transportation transportation = new Transportation();
+        //    transportation.ConfirmSelection();
+        //}
+
+        //public void SelectEntertainment()
+        //{
+        //    //Entertainment entertainment = new Entertainment();
+        //    entertainment.ConfirmSelection();
+        //}
+
+        //public void SelectRestaurant()
+        //{
+        //    //Restaurant restaurant = new Restaurant();
+        //    restaurant.ConfirmSelection();
+        //}
+
+        public void ReviewFinal()
+        {
+            Console.WriteLine($"Here is your final itinerary for your day trip:");
+            Console.WriteLine($"Destination: {destination.randomLocation}");
+            Console.WriteLine($"Transportation: {transportation.randomTransport}");
+            Console.WriteLine($"Entertainment: {entertainment.randomEntertainment}");
+            Console.WriteLine($"Restaurant: {restaurant.randomRestaurant}");
+            Console.WriteLine("Have a great trip!");
+        }
 
 
     }
