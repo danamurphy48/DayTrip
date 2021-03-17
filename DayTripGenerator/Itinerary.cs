@@ -33,7 +33,7 @@ namespace DayTripGenerator
         public void SelectDestination()
         {
             Destination destination = new Destination();
-            destination.OptionLocation();
+            destination.ConfirmSelection();
         }
         public void SelectTransportation()
         {
@@ -44,7 +44,7 @@ namespace DayTripGenerator
         public void SelectEntertainment()
         {
             Entertainment entertainment = new Entertainment();
-            entertainment.OptionEntertainment();
+            entertainment.ConfirmSelection();
         }
 
         public void SelectRestaurant()
